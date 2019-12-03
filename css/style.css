@@ -1,0 +1,266 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    line-height: 100px;
+    background: orange;
+    width: 100%;
+    top: 0;
+    /* position: fixed; */
+}
+
+
+/* .container {
+    position: fixed;
+    background: orange;
+    height: 100px;
+    line-height: 100px;
+    width: auto;
+    top: 0;
+} */
+
+.logo img {
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    top: 5px;
+    left: 100px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+header nav ul {
+    float: right;
+    margin-left: 550px;
+}
+
+header nav ul li {
+    padding-right: 35px;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    color: wheat;
+    transition: all 0.5s;
+    display: block;
+}
+
+header nav ul li a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img1 {
+    background: url(..//images/Rome.jpg);
+    background-size: 100% 100%;
+    margin-top: 0;
+}
+
+.img2 {
+    background: url(..//images/Germany.jpg);
+    background-size: 100% 100%;
+    margin-top: 0;
+}
+
+.img3 {
+    background: url(..//images/Denmark.jpg);
+    background-size: 100% 100%;
+    margin-top: 0;
+}
+
+.img4 {
+    background: url(..//images/Bridge.jpg);
+    background-size: 100% 100%;
+    margin-top: 0;
+}
+
+#slider-carousel {
+    margin: 0;
+    padding: 0;
+}
+
+#slider,
+#slider ul,
+#slider ul li {
+    height: 670px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+#slider ul li i {
+    padding: 10px;
+}
+
+#slider ul li i:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+#slider ul li p {
+    font-weight: bold;
+}
+
+#slider h2 {
+    font-weight: bold;
+}
+
+#slider span {
+    color: orange;
+}
+
+#slider a {
+    padding: 10px;
+    background: orange;
+    border-radius: 5px;
+    color: black;
+    transition: all 0.5s ease-out;
+}
+
+#slider a:hover {
+    text-decoration: none;
+    color: orange;
+    background: black;
+}
+
+#Services {
+    width: 100%;
+    height: 670px;
+    background: blue;
+}
+
+#About_Us {
+    width: 100%;
+    height: 670px;
+    background: white;
+}
+
+#About_Us .container_aboutus {
+    width: 100%;
+    height: 350px;
+    background-image: url(..//images/Keyboard.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#About_Us .container_aboutus h1 {
+    position: relative;
+    top: 150px;
+    text-decoration: underline green;
+    color: wheat;
+}
+
+#About_Us .container_aboutus span {
+    color: orange;
+}
+
+#About_Us p {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 40px;
+    font-size: 20px;
+}
+
+#Explore {
+    width: 100%;
+    height: 670px;
+    background: yellowgreen;
+}
+
+#Contacts {
+    width: 100%;
+    height: 670px;
+    background: white;
+}
+
+#Contacts h1 {
+    position: relative;
+    top: 100px;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Contacts span {
+    color: orange;
+}
+
+#Contacts p {
+    position: relative;
+    top: 120px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Contacts .contact {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    top: 140px;
+    float: left;
+    left: 50px;
+}
+
+#Contacts .contact ul li {
+    font-weight: bold;
+}
+
+#Contacts .contactform {
+    width: 40%;
+    height: 400px;
+    position: relative;
+    top: 140px;
+    float: right;
+}
+
+#Contacts .contactform form {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+#Contacts .contactform form .information {
+    border: 5px black;
+    border-radius: 5px;
+    background: whitesmoke;
+    margin-left: 3%;
+}
+
+#Contacts .contactform form .subscribe {
+    border: none;
+    border-radius: 5px;
+    background: orange;
+    padding: 5px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+#Contacts .contactform form .subscribe:hover {
+    background: black;
+    color: orange;
+}
+
+#FAQs {
+    width: 100%;
+    height: 670px;
+    background: blueviolet;
+}
